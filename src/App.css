@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+  font-family: "Alata",sans-serif;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;  
+background-repeat: no-repeat;
+background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color:rgb(100, 40, 40);
+  /* margin-top: 0.5px; */
+  font-weight: bolder;
+}
+.grp{
+  display:flex;
+  gap:3px;
+}
+
+.card{
+  margin:10px auto;
+  max-width: 500px;
+  box-shadow: 2px 2px 8px #b3a3a3;
+}
+.btn{
+  width: 10%; 
+  background: linear-gradient(130deg,red,gold,blue);
+  background-size:200% 200% ;
+  animation: changebg 2s linear .4s infinite;
+  
+}
+input{
+  border-radius: 15px;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 10px;
+}
+label{
+  margin-left: 100px;
+    font-weight: 500;
+}
+#submit{
+  margin-left:125px;
+}
+.card-title{
+  padding:15px;
+  justify-content: center;
+  font-weight: 600;
+  text-indent: 20px;
+}
+h1{
+  background:#4e73df;
+  padding:10px;
+  text-Align:center;
+  color:white;
+  font-weight:400;
+}
+.cardDiv{
+  margin:10px auto;
+  max-width:500px;
+}
+
+.space{
+  padding-left: 10px;
+}
+button{
+  width: 10%; 
+  background: linear-gradient(130deg,red,gold,blue);
+  background-size:200% 200% ;
+  animation: changebg 2s linear .4s infinite;
+}
+@keyframes changebg{
+  0%{
+      background-position: 10% 0% ;
+  }50% {
+      background-position: 91% 100% ;
+  }100%{
+      background-position: 10% 0% ;
+  }
+}
